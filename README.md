@@ -1,4 +1,4 @@
 # ClassBook
 The first turning point in Class 14's academic journey is the High School Entrance Examination
 
-And i'll finish the update a week
+And i'll finish the update in a week
