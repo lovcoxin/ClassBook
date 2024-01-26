@@ -4,7 +4,6 @@ The first turning point in Class 14's academic journey is the High School Entran
 And i'll finish the update in a week
 
 ---
-<!-- 水平分割线 -->
 
 # Install
 为了方便电脑端的下载，在此提供蓝奏云的下载地址：https://lovcoxin.lanzout.com/ivpjC1mcvsje 提取码：1wzv
