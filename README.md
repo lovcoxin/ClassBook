@@ -6,8 +6,8 @@ And i'll finish the update in a week
 ---
 
 # Install
-项目文件夹下载链（蓝奏云）：https://lovcoxin.lanzout.com/i0McQ1mvkeuj
-提取密码：433r
+项目文件夹下载链（蓝奏云）：https://lovcoxin.lanzout.com/iymq11mzp0ih
+提取密码：bgvm
 
 Attention: 内含.zip文件，手机一般无法读取
 2024.02.02
@@ -15,6 +15,6 @@ Attention: 内含.zip文件，手机一般无法读取
 ---
 
 # .md（markdown文件）非公开文件
-下载地址：https://lovcoxin.lanzout.com/ivydn1md0w8h
+下载地址：https://lovcoxin.lanzout.com/isQa61mzp0ji
 
 
