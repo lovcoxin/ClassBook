@@ -10,7 +10,9 @@ And i'll finish the update in a week
 提取密码：bybg
 
 由于body模块的源文件类型（如：.psd）文件过大导致蓝奏云账号无法上传，因此文件夹只含有制作辅助资料
-目前Hub支持上传，有需要可以在 gitee.com/lycolovcoxin/classbook 中下载Code
+
+目前body模块的获取方式仅有 ‘阿里云盘分享’ ，缺点是需要你登录阿里云盘账号
+链接：
 
 Attention: 内含.zip文件，手机一般无法读取
 2024.02.04
