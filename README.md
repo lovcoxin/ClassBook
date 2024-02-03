@@ -6,19 +6,13 @@ And i'll finish the update in a week
 ---
 
 # Install
-项目文件夹下载链：https://lovcoxin.lanzout.com/iZWG61n5itna
-提取密码：4b4b
+项目文件夹下载链：
+提取密码：
 
-code文件夹下载链：https://pc.woozooo.com/mydisk.php
-提取密码：7pk3
+由于body模块的源文件类型（如：.psd）文件过大导致蓝奏云账号无法上传，
 
 
 Attention: 内含.zip文件，手机一般无法读取
 2024.02.03
-
----
-
-# .md（markdown文件）非公开文件
-下载地址：https://lovcoxin.lanzout.com/imAHf1n5igva
 
 
