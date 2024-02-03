@@ -4,11 +4,11 @@ The first turning point in Class 14's academic journey is the High School Entran
 And i'll finish the update in a week
 
 ---
-### All install
+## All install
 项目文件夹下载链接：https://www.alipan.com/s/2nyftCUFuhE
 注：需要你登录阿里云盘账号进行资源转接
 
-### Range install
+## Range install
 辅助资料下载链：https://lovcoxin.lanzout.com/iCAk21n8wjva
 提取密码：btbr
 
