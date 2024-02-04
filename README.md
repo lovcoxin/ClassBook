@@ -1,9 +1,9 @@
 # ClassBook
-The first turning point in Class 14's academic journey is the High School Entrance Examination
+The first turning point in Class 14's academic journey is the High School Entrance Examination.
 
-And i'll finish the update in a week
+And i'll finish the update in a week.
 
-mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook)
+Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
 ---
 ## All install:
