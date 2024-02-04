@@ -10,7 +10,7 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 项目文件夹下载链接：[https://www.alipan.com/s/2nyftCUFuhE](https://www.alipan.com/s/2nyftCUFuhE])
 注：需要你登录阿里云盘账号进行资源转接
   
-## Range install:
+## [Range install:](https://lovcoxin.lanzout.com/iCAk21n8wjva)
 辅助资料下载链：[https://lovcoxin.lanzout.com/iCAk21n8wjva](https://lovcoxin.lanzout.com/iCAk21n8wjva)
 提取密码：btbr
 
