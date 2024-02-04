@@ -3,6 +3,9 @@ The first turning point in Class 14's academic journey is the High School Entran
 
 And i'll finish the update in a week
 
+mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook)
+
+sd
 ---
 ## All install:
 项目文件夹下载链接：[https://www.alipan.com/s/2nyftCUFuhE](https://www.alipan.com/s/2nyftCUFuhE])
