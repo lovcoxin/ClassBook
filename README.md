@@ -10,7 +10,7 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 项目文件夹下载链接：[蓝奏云优享版链接](https://www.ilanzou.com/s/uWlIMaa)
 注：优享版不需要密码
   
-## Range install:
+## Partial install:
 辅助资料下载链：[蓝奏云链接](https://lovcoxin.lanzout.com/iOL0R1nooy3a)
 提取密码：1234
 
