@@ -7,11 +7,11 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 ---
 ## All install:
-项目文件夹下载链接：[蓝奏云优享版链接](https://www.ilanzou.com/s/uWlIMaa)
+项目文件夹下载链接：[蓝奏云优享版链接](https://www.ilanzou.com/s/MXF6fRG)
 注：优享版不需要密码
   
 ## Partial install:
-辅助资料下载链：[蓝奏云链接](https://lovcoxin.lanzout.com/iOL0R1nooy3a)
+辅助资料下载链：[蓝奏云链接](https://lovcoxin.lanzout.com/iqQDI1oo94be)
 提取密码：1234
 
 由于body模块的源文件类型（如：.psd）文件过大导致蓝奏云无法上传，因此只用来传输辅助资料
