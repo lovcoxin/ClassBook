@@ -6,6 +6,15 @@ And i'll finish the update in a week.
 Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
 ---
+## Class Website 班级网站（班级文化二维码）
+https://lxxgd.github.io/
+
+
+## ClassBook 个人制作手记（待开放...）
+https://
+
+---
+
 ## All install:
 项目文件夹下载链接：[蓝奏云优享版链接](https://www.ilanzou.com/s/MXF6fRG)
 注：优享版不需要密码
