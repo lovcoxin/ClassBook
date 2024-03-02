@@ -6,7 +6,18 @@ And i'll finish the update in a week.
 Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
 ---
-## Class Website 班级网站（班级文化二维码）
+
+# If Lost in the middle, get it here
+1.[Class Website 班级网站（班级文化二维码）](#classwebsite)
+
+
+
+
+
+
+---
+
+## Class Website 班级网站（班级文化二维码）{#classwebsite}
 https://lxxgd.github.io/
 
 
