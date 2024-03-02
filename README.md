@@ -6,6 +6,7 @@ And i'll finish the update in a week.
 Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
 Contact Us(Group in skype): https://join.skype.com/yPRKhVxIXfEs
+
 ---
 
 # If Lost in the middle, get it here
