@@ -8,7 +8,7 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 ---
 
 # If Lost in the middle, get it here
-1.[Class Website 班级网站（班级文化二维码）](#classwebsite)
+1. [Class Website 班级网站](Class Website 班级网站（班级文化二维码）
 
 
 
@@ -17,7 +17,7 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 ---
 
-## [Class Website 班级网站（班级文化二维码）]{#classwebsite}
+## Class Website 班级网站（班级文化二维码）
 https://lxxgd.github.io/
 
 
