@@ -17,7 +17,7 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 ---
 
-## Class Website 班级网站（班级文化二维码）{#classwebsite}
+## [Class Website 班级网站（班级文化二维码）]{#classwebsite}
 https://lxxgd.github.io/
 
 
