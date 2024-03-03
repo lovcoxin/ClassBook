@@ -11,7 +11,7 @@ Contact Us(Group in skype): https://join.skype.com/yPRKhVxIXfEs
 
 # If Lost in the middle, get it here
 1. [Class Website 班级网站](##Class Website 班级网站(班级文化二维码))
-2.
+2.d
 3.
 4.
 5.
