@@ -10,7 +10,7 @@ Contact Us(Group in skype): https://join.skype.com/yPRKhVxIXfEs
 ---
 
 # If Lost in the middle, get it here
-1. [Class Website 班级网站](#Class Website 班级网站（班级文化二维码）)
+1. [Class Website 班级网站](#Class Website 班级网站(班级文化二维码))
 2.
 3.
 4.
@@ -19,7 +19,7 @@ Contact Us(Group in skype): https://join.skype.com/yPRKhVxIXfEs
 
 ---
 
-## Class Website 班级网站（班级文化二维码）
+## Class Website 班级网站(班级文化二维码)
 https://lxxgd.github.io/
 
 
