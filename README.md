@@ -10,7 +10,7 @@ Contact Us(Group in skype): https://join.skype.com/yPRKhVxIXfEs
 ---
 
 # If Lost in the middle, get it here
-1. [Class Website 班级网站](班级文化网站)
+1. [Class Website 班级网站](@班级文化网站)
 2.
 3.
 4.
