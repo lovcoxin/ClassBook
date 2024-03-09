@@ -8,7 +8,7 @@ Contact Us(Group in skype): https://join.skype.com/yPRKhVxIXfEs
 ---
 
   * [Class Website | QR code of class](##Class-Website-|-QR-code-of-class)
-   * [a](##制作手记)
+    * [a](##制作手记)
 
 ---
 
