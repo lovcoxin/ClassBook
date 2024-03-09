@@ -7,14 +7,14 @@ Contact Us(Group in skype): https://join.skype.com/yPRKhVxIXfEs
 
 ---
 
-  * [Class Website | QR code of class](#Class-Website-|-QR-code-of-class)
+  * [Class Website | QR code of class](#Class-Website|QR-code-of-class：Website)
   * [制作手记](#制作手记)
   * [All install](#all-install)
   * [Partial install](#partial-install)
 
 ---
 
-## [Class Website | QR code of class](https://lxxgd.github.io/)
+## Class Website|QR code of class：[Website](https://lxxgd.github.io/)
 
 
 ## 制作手记
