@@ -7,13 +7,12 @@ Contact Us(Group in skype): https://join.skype.com/yPRKhVxIXfEs
 
 ---
 
-  * [Class Website 班级网站](##Class Website 班级网站(班级文化二维码))
-  *  
+  * [Class Website | QR code of class](##Class-Website-|-QR-code-of-class)
+  * [a](##制作手记)
 
 ---
 
-## Class Website 班级网站(班级文化二维码)
-https://lxxgd.github.io/
+## [Class Website | QR code of class](https://lxxgd.github.io/)
 
 
 ## 制作手记
@@ -21,7 +20,7 @@ https://lxxgd.github.io/
 ---
 
 ## All install:
-项目文件夹下载链接：[蓝奏云优享版链接](https://www.ilanzou.com/s/gWEWosT)
+项目文件夹下载链接：[蓝奏云优享版链接](https://www.ilanzou.com/s/ibr1yYy)
 注：优享版不需要密码 / 需要登陆
 
 ## Partial install:
