@@ -3,19 +3,21 @@ The first turning point in Class 14's academic journey is the High School Entran
 
 Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
-## ClassWebsite QR code of class
-> [Website](https://lxxgd.github.io/)
 
 Contact Us: 
-(Group in Skype) https://join.skype.com/yPRKhVxIXfEs
-(Email of responsible) lovcoxin@126.com
+> (Group in Skype) https://join.skype.com/yPRKhVxIXfEs
+> (Email of responsible) lovcoxin@126.com
 
 ---
 
   * [All install](#all-install)
   * [Partial install](#partial-install)
+  * [ClassWebsite QR code of calss](#classWebsite-qr-code-of-class)
 
 ---
+## ClassWebsite QR code of class
+> [Website](https://lxxgd.github.io/)
+
 
 ## Partial install:
 辅助资料下载链：[蓝奏云链接](https://lovcoxin.lanzout.com/iAFYx1qvfjfi)
