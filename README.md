@@ -24,8 +24,11 @@ Contact Us(Group in skype): https://join.skype.com/yPRKhVxIXfEs
 ---
 
 ## All install:
-项目文件夹下载链接：[蓝奏云优享版链接](https://www.ilanzou.com/s/ibr1yYy)
-> 注：优享版不需要密码 / 需要登陆
+注：
+
+## Body install:
+Body文件下载链接：[蓝奏云链接](https://www.ilanzou.com/s/ibr1yYy)
+提取密码：1234
 
 ## Partial install:
 辅助资料下载链：[蓝奏云链接](https://lovcoxin.lanzout.com/iAFYx1qvfjfi)
