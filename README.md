@@ -4,7 +4,7 @@ The first turning point in Class 14's academic journey is the High School Entran
 Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
 ### What's New
-> [20240316:1916](/log/20240316:1916.log) main.psd 框架填充推进（框架版初稿已完成）
+> [20240316:1916](/log/20240316.log) main.psd 框架填充持续推进（框架版初稿已完成）
 > 
 
 ###### Contact Us: 
@@ -18,15 +18,15 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
   * [Partial install](#partial-install)
 
 ---
-## ClassWebsite QR code of class
+### ClassWebsite QR code of class
 > [Website](https://lxxgd.github.io/)
 
 
-## Partial install:
+### Partial install:
 辅助资料下载链：[蓝奏云链接](https://lovcoxin.lanzout.com/iAFYx1qvfjfi)
 提取密码：1234
 
-## All install:
+### All install:
 有必要的话来skype群组联系负责人获取：[skype群组](https://join.skype.com/yPRKhVxIXfEs)
 
 > 由于body模块的源文件类型（如：.psd）文件过大导致蓝奏云无法上传，因此转用优享版传输
