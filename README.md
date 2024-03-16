@@ -10,9 +10,9 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 ---
 
+  * [ClassWebsite QR code of calss](#classWebsite-qr-code-of-class)
   * [All install](#all-install)
   * [Partial install](#partial-install)
-  * [ClassWebsite QR code of calss](#classWebsite-qr-code-of-class)
 
 ---
 ## ClassWebsite QR code of class
