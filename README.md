@@ -4,7 +4,7 @@ The first turning point in Class 14's academic journey is the High School Entran
 Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
 
-Contact Us: 
+###### Contact Us: 
 > (Group in Skype) https://join.skype.com/yPRKhVxIXfEs
 > (Email of responsible) lovcoxin@126.com
 
