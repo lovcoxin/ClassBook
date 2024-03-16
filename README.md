@@ -7,9 +7,13 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 > [2024 03 16 - 19:16](/log/20240316.log) main.psd 框架填充持续推进（框架版初稿已完成）
 > 
 
+
 ###### Contact Us: 
 > (Group in Skype) https://join.skype.com/yPRKhVxIXfEs
 > (Email of responsible) lovcoxin@126.com
+
+###### ClassWebsite QR code of class
+> [Website](https://lxxgd.github.io/)
 
 ---
 
@@ -18,9 +22,6 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
   * [Partial install](#partial-install)
 
 ---
-### ClassWebsite QR code of class
-> [Website](https://lxxgd.github.io/)
-
 
 ### Partial install:
 辅助资料下载链：[蓝奏云链接](https://lovcoxin.lanzout.com/iAFYx1qvfjfi)
