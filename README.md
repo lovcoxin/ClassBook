@@ -5,6 +5,7 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 ### What's New
 > [2024 03 22 - 21:29](/log/20240322.log) 计划推进PictureProject
+
 > [2024 03 16 - 19:16](/log/20240316.log) main.psd 框架填充持续推进（框架版初稿已完成）
 
 
