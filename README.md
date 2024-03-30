@@ -4,7 +4,9 @@ The first turning point in Class 14's academic journey is the High School Entran
 Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
 ### What's New
-> [2024 03 30 - 20:38](/log/20240330.log) 推进初稿，计划使用compose
+> [2024 03 31 - 0:31](/log/20240331.log) 发现问题，compose不适用于网站
+
+> 2024 03 30 - 20:38 推进初稿，计划使用compose
 
 > [2024 03 22 - 21:29](/log/20240322.log) 计划推进PictureProject
 
@@ -39,4 +41,8 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 > Attention: 内含.zip文件，手机一般无法读取
 
-2024.03.16
+---
+
+### [ClassWebsite](https://lxxgd.github.io/)
+虽然我直接很难，但真的很想做这个项目啊Q__o``
+> [2024.03.31 00：29]() 完成实现原理的探索，并试图推进
