@@ -44,16 +44,7 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 ---
 
-> ClassBook.pdf 结构图
->> 封面
->> 内封面
->>> 制作组
-
->>> 扩展信息
-
->> 卷首语  
-
-
-
 ### Developer
+![lovcoxin](https://avatars.githubusercontent.com/u/131973516?v=4) Lycoris lovcoxin
+![lxxgd](https://avatars.githubusercontent.com/u/161317662?v=4) lxxgd
 
