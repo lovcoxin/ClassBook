@@ -6,6 +6,8 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 ### What's New
 > [2024 03 31 - 2:01](/log.20240331.log) 使用compose进行网页渲染的计划似乎不可行
 
+> 2024 03 30 - 20:38 推进初稿，计划使用compose
+
 > [2024 03 24 - 14:41](/log/20240324.log) PictureProject github图片CDN加速服务src参数自动生成程序.py FINSH
 
 > [2024 03 22 - 21:29](/log/20240322.log) 计划推进PictureProject
