@@ -38,3 +38,9 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 > 由于me不是会去开网盘会员的那种人，因此暂时没有合适的渠道可以使用（合适的渠道：有永久分享链接的网盘）
 
 > Attention: 内含.zip文件，手机一般无法读取
+
+---
+
+### [ClassWebsite](https://lxxgd.github.io)
+我知道很难做，我知道做的很烂，但我还是想做这个项目啊Q__O``
+
