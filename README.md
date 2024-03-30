@@ -17,14 +17,12 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 > (Group in Skype) https://join.skype.com/yPRKhVxIXfEs
 > (Email of responsible) lovcoxin@126.com
 
-###### ClassWebsite QR code of class
-> [Website](https://lxxgd.github.io/)
-
 ---
 
   * [ClassWebsite QR code of calss](#classWebsite-qr-code-of-class)
   * [All install](#all-install)
   * [Partial install](#partial-install)
+  * [ClassWebsite](#classwebsite)
 
 ---
 
@@ -44,5 +42,5 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 ---
 
 ### [ClassWebsite](https://lxxgd.github.io/)
-虽然我直接很难，但真的很想做这个项目啊Q__o``
+虽然我直接很难，但真的很想做这个项目啊O__Q``
 > [2024.03.31 00：29]() 完成实现原理的探索，并试图推进
