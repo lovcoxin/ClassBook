@@ -20,7 +20,6 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
   * [All install](#all-install)
   * [Partial install](#partial-install)
   * [ClassWebsite QR code of calss](#classWebsite-qr-code-of-class)
-  * [Developer](#developer)
 
 ---
 
@@ -41,10 +40,4 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 ### [ClassWebsite](https://lxxgd.github.io)
 我知道很难做，我知道做的很烂，但我还是想做这个项目啊Q__O``
-
----
-
-### Developer
-![lovcoxin](https://avatars.githubusercontent.com/u/131973516?v=4) Lycoris lovcoxin
-![lxxgd](https://avatars.githubusercontent.com/u/161317662?v=4) lxxgd
 
