@@ -1,2 +1,1 @@
-*.html linguist-language=html;
-*.py linguist-language=python
+.devcontainer/*.json linguist-language=JSON-with-Comments
