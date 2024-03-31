@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CBTool.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace CBTool
 {
     public partial class PicNumbering : Form
     {
+        private bool StepCode;
+
         public PicNumbering()
         {
             InitializeComponent();
@@ -22,7 +25,7 @@ namespace CBTool
             e.Effect = DragDropEffects.All;
         }
 
-        public static bool canPares(string s) 
+        public static bool canPares(string s)
         {
             try
             {
@@ -37,17 +40,17 @@ namespace CBTool
 
         private void PicNumbering_DragDrop(object sender, DragEventArgs e)
         {
-            if (comboBox3.SelectedItem == null || comboBox2.SelectedItem == null || comboBox1.SelectedItem == null) 
+            if (comboBox3.SelectedItem == null || comboBox2.SelectedItem == null || comboBox1.SelectedItem == null)
             {
                 MessageBox.Show("缺少选择", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (textBox1.Text.Equals(string.Empty)||!canPares(textBox1.Text))
+            if (textBox1.Text.Equals(string.Empty) || !canPares(textBox1.Text))
             {
                 MessageBox.Show("数据不合法1", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if(e.Data == null || e.Data.GetData(DataFormats.FileDrop, false) == null)
+            if (e.Data == null || e.Data.GetData(DataFormats.FileDrop, false) == null)
             {
                 MessageBox.Show("数据不合法2", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -59,7 +62,8 @@ namespace CBTool
                 "." + ((Item)comboBox2.SelectedItem).ID +
                 "." + ((Item)comboBox1.SelectedItem).ID;
             File.Move(path, Path.GetDirectoryName(path) + "\\" + code + Path.GetExtension(path));
-            textBox1.Text = (int.Parse(textBox1.Text) + 1).ToString();
+            if(StepCode)  
+                textBox1.Text = (int.Parse(textBox1.Text) + 1).ToString();
         }
 
         private void PicNumbering_Load(object sender, EventArgs e)
@@ -90,12 +94,12 @@ namespace CBTool
             }
         }
 
-        class Item 
+        class Item
         {
             public string ID { get; set; }
             public string Name { get; set; }
 
-            public Item(string iD,string name)
+            public Item(string iD, string name)
             {
                 ID = iD;
                 Name = name;
@@ -105,6 +109,20 @@ namespace CBTool
             {
                 return Name;
             }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            StepCode = checkBox1.Checked;
+        }
+
+        private void PicNumbering_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
+
+        private void PicNumbering_FormClosing(object sender, FormClosingEventArgs e)
+        {
         }
     }
 }

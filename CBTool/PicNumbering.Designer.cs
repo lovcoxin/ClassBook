@@ -33,6 +33,7 @@
             comboBox3 = new ComboBox();
             textBox1 = new TextBox();
             label1 = new Label();
+            checkBox1 = new CheckBox();
             SuspendLayout();
             // 
             // comboBox1
@@ -69,6 +70,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(121, 23);
             textBox1.TabIndex = 3;
+            textBox1.Text = "0";
             // 
             // label1
             // 
@@ -79,12 +81,24 @@
             label1.TabIndex = 4;
             label1.Text = "将文件拖到这里";
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(139, 42);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(99, 21);
+            checkBox1.TabIndex = 5;
+            checkBox1.Text = "自动步进编号";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
             // PicNumbering
             // 
             AllowDrop = true;
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(152, 168);
+            ClientSize = new Size(243, 168);
+            Controls.Add(checkBox1);
             Controls.Add(label1);
             Controls.Add(textBox1);
             Controls.Add(comboBox3);
@@ -92,7 +106,9 @@
             Controls.Add(comboBox1);
             Name = "PicNumbering";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "PicNumbering";
+            Text = "图片编号";
+            FormClosing += PicNumbering_FormClosing;
+            FormClosed += PicNumbering_FormClosed;
             Load += PicNumbering_Load;
             DragDrop += PicNumbering_DragDrop;
             DragEnter += PicNumbering_DragEnter;
@@ -107,5 +123,6 @@
         private ComboBox comboBox3;
         private TextBox textBox1;
         private Label label1;
+        private CheckBox checkBox1;
     }
 }
