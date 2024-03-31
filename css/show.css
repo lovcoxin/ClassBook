@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color: #6BE5FF
+}
+
+#title
+{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 400px;
+	transform: translate(-50%,-10%);
+	font-size: 2.5em;
+}
+
+#t1
+{
+	position: relative;
+	left: -75px;
+}
+
+#img1
+{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-55%,-0%);
+}

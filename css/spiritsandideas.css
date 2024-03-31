@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color: #E7868C
+}
+
+#title
+{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 400px;
+	transform: translate(-40%,-10%);
+	font-size: 2em;
+}
+
+#text1
+{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 512px;
+	transform: translate(-55%,10%);
+	border: 1px solid #BAEB3B;
+	padding: 14px;
+	border-radius: 16px;
+}
