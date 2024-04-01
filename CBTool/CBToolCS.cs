@@ -4,9 +4,12 @@ namespace CBTool
 {
     public partial class CBToolCS : Form
     {
+        public static CBToolCS instance;
+
         public CBToolCS()
         {
             InitializeComponent();
+            instance = this;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,7 +32,8 @@ namespace CBTool
         private void button2_Click(object sender, EventArgs e)
         {
             PicNumbering picNumbering = new PicNumbering();
-            picNumbering.ShowDialog();
+            picNumbering.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -41,5 +45,6 @@ namespace CBTool
         {
 
         }
+
     }
 }

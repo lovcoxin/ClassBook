@@ -69,6 +69,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             KeyPreview = true;
             Name = "CBToolCS";
             Load += CBToolCS_Load;

@@ -7,5 +7,11 @@
     <Compile Update="PicNumbering.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PicPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SelectWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
