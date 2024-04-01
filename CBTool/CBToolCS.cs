@@ -17,12 +17,12 @@ namespace CBTool
             MessageBox.Show(
                 "----------------------------------------------------------\r\n" +
                 "CBToolCS\r\n" +
-                "°æ±¾:v1.1\r\n" +
-                "Ö÷²Ö¿â:https://github.com/lovcoxin/classbook\r\n" +
-                "ÁªÏµÎÒ(lovcoxin):lovcoxin@126.com\r\n" +
-                "ÁªÏµÎÒ(lxxgd):°¡£¿¾ÓÈ»ÒªĞ´Õâ¸ö(\r\n" +
-                "²Ö¿â:https://github.com/lovcoxin/ClassBook/tree/CBToolCS\r\n" +
-                "Ô­°æ²Ö¿â:https://github.com/lovcoxin/ClassBook/tree/CBtool\r\n" +
+                "ç‰ˆæœ¬:v1.2\r\n" +
+                "ä¸»ä»“åº“:https://github.com/lovcoxin/classbook\r\n" +
+                "è”ç³»æˆ‘(lovcoxin):lovcoxin@126.com\r\n" +
+                "è”ç³»æˆ‘(lxxgd):ä»€ä¹ˆï¼Ÿå±…ç„¶è¿˜è¦å†™è¿™ä¸ª(\r\n" +
+                "ä»“åº“:https://github.com/lovcoxin/ClassBook/tree/CBToolCS\r\n" +
+                "åŸç‰ˆä»“åº“:https://github.com/lovcoxin/ClassBook/tree/CBtool\r\n" +
                 "----------------------------------------------------------",
                 "About",
                 MessageBoxButtons.OK,
