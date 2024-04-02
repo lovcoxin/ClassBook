@@ -1,4 +1,5 @@
 using CBTool.Properties;
+using System.Reflection;
 
 namespace CBTool
 {
@@ -17,7 +18,7 @@ namespace CBTool
             MessageBox.Show(
                 "----------------------------------------------------------\r\n" +
                 "CBToolCS\r\n" +
-                "版本:v1.2\r\n" +
+                $"版本:v{Assembly.GetExecutingAssembly().GetName().Version}\r\n" +
                 "主仓库:https://github.com/lovcoxin/classbook\r\n" +
                 "联系我(lovcoxin):lovcoxin@126.com\r\n" +
                 "联系我(lxxgd):什么？居然还要写这个(\r\n" +

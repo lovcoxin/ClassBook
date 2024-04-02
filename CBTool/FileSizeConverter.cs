@@ -48,7 +48,7 @@ namespace CBTool
                 unit = FileSizeUnit.KB;
             }
 
-            return $"{Math.Round(convertedSize, 2)} {unit.ToString().ToUpper()}";
+            return $"{Math.Round(convertedSize, 2)} {unit}";
         }
     }
 }

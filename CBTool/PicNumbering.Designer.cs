@@ -50,12 +50,15 @@
             pictureBox1 = new PictureBox();
             groupBox3 = new GroupBox();
             panel1 = new Panel();
+            groupBox4 = new GroupBox();
+            toolTip1 = new ToolTip(components);
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox3.SuspendLayout();
             panel1.SuspendLayout();
+            groupBox4.SuspendLayout();
             SuspendLayout();
             // 
             // comboBox2
@@ -141,6 +144,7 @@
             button3.Size = new Size(97, 34);
             button3.TabIndex = 10;
             button3.Text = "保存";
+            toolTip1.SetToolTip(button3, "将设置的标签保存到file.json");
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
@@ -153,6 +157,7 @@
             listBox2.Name = "listBox2";
             listBox2.Size = new Size(120, 89);
             listBox2.TabIndex = 7;
+            toolTip1.SetToolTip(listBox2, "双击填加项，右键打开菜单删除项");
             listBox2.SelectedIndexChanged += listBox2_SelectedIndexChanged;
             listBox2.MouseDoubleClick += listBox2_MouseDoubleClick;
             // 
@@ -198,11 +203,12 @@
             // 
             // listBox1
             // 
+            listBox1.Dock = DockStyle.Fill;
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 17;
-            listBox1.Location = new Point(12, 286);
+            listBox1.Location = new Point(3, 19);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(423, 225);
+            listBox1.Size = new Size(417, 224);
             listBox1.TabIndex = 7;
             listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
@@ -213,6 +219,7 @@
             button1.Size = new Size(75, 39);
             button1.TabIndex = 8;
             button1.Text = "加载文件";
+            toolTip1.SetToolTip(button1, "把images的文件加载到文件列表中");
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -223,7 +230,8 @@
             button2.Name = "button2";
             button2.Size = new Size(75, 39);
             button2.TabIndex = 9;
-            button2.Text = "自动编码";
+            button2.Text = "自动编号";
+            toolTip1.SetToolTip(button2, "将图片名重命名为数字形式");
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -253,7 +261,7 @@
             groupBox3.Controls.Add(panel1);
             groupBox3.Location = new Point(441, 79);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(523, 432);
+            groupBox3.Size = new Size(528, 453);
             groupBox3.TabIndex = 12;
             groupBox3.TabStop = false;
             groupBox3.Text = "图片预览（简易）";
@@ -265,20 +273,30 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(3, 19);
             panel1.Name = "panel1";
-            panel1.Size = new Size(517, 410);
+            panel1.Size = new Size(522, 431);
             panel1.TabIndex = 12;
+            // 
+            // groupBox4
+            // 
+            groupBox4.Controls.Add(listBox1);
+            groupBox4.Location = new Point(12, 286);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(423, 246);
+            groupBox4.TabIndex = 13;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "文件列表";
             // 
             // PicNumbering
             // 
             AllowDrop = true;
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(976, 523);
+            ClientSize = new Size(981, 544);
+            Controls.Add(groupBox4);
             Controls.Add(groupBox3);
             Controls.Add(button4);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(listBox1);
             Controls.Add(groupBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "PicNumbering";
@@ -298,6 +316,7 @@
             groupBox3.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            groupBox4.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -323,5 +342,7 @@
         private PictureBox pictureBox1;
         private GroupBox groupBox3;
         private Panel panel1;
+        private GroupBox groupBox4;
+        private ToolTip toolTip1;
     }
 }

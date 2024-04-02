@@ -28,7 +28,7 @@ namespace CBTool
 
         private void PicNumbering_DragEnter(object sender, DragEventArgs e)
         {
-            e.Effect = DragDropEffects.All;
+        
         }
 
         public static bool canPares(string s)
@@ -144,6 +144,10 @@ namespace CBTool
         private void LoadFile()
         {
             listBox1.Items.Clear();
+            if (!Directory.Exists("images")) 
+            {
+                Directory.CreateDirectory("images");
+            }
             try
             {
                 foreach (var filePath in Directory.EnumerateFiles("images", "*", SearchOption.TopDirectoryOnly))
@@ -180,13 +184,26 @@ namespace CBTool
         private void button2_Click(object sender, EventArgs e)
         {
             int num = 0;
+            List<int> nums = new List<int>();
             foreach (var filePath in Directory.EnumerateFiles("images", "*", SearchOption.TopDirectoryOnly))
             {
-                FileInfo fileInfo = new FileInfo(filePath);
-                fileInfo.MoveTo(Path.GetDirectoryName(filePath) + "\\" + Guid.NewGuid().ToString() + Path.GetExtension(filePath));
+                string name = Path.GetFileNameWithoutExtension(filePath);
+                if (canPares(name)) 
+                {
+                    int i = int.Parse(name);
+                    nums.Add(i);
+                }
+            }
+            nums.Sort((a, b) => b.CompareTo(a));
+            if(nums.Count > 0 ) 
+            {
+                num = nums[0] + 1;
             }
             foreach (var filePath in Directory.EnumerateFiles("images", "*", SearchOption.TopDirectoryOnly))
             {
+                string name = Path.GetFileNameWithoutExtension(filePath);
+                if (canPares(name))
+                    continue;
                 FileInfo fileInfo = new FileInfo(filePath);
                 fileInfo.MoveTo(Path.GetDirectoryName(filePath) + "\\" + num + Path.GetExtension(filePath));
                 num++;
