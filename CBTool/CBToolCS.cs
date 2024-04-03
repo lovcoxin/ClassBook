@@ -1,5 +1,6 @@
 using CBTool.Properties;
 using System.Reflection;
+using System.Text;
 
 namespace CBTool
 {
@@ -44,8 +45,17 @@ namespace CBTool
 
         private void CBToolCS_Load(object sender, EventArgs e)
         {
-
+            
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            foreach (var item in RainbowLabel.width)
+            {
+                stringBuilder.Append(item.ToString() + ",");
+            }
+            MessageBox.Show(stringBuilder.ToString());
+        }
     }
 }

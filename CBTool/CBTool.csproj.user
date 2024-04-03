@@ -13,6 +13,9 @@
     <Compile Update="PicPreview.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="RainbowLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="README.cs">
       <SubType>Form</SubType>
     </Compile>

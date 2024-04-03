@@ -28,18 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CBToolCS));
-            label1 = new Label();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
+            rainbowLabel1 = new RainbowLabel();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            resources.ApplyResources(label1, "label1");
-            label1.Name = "label1";
-            label1.Click += label1_Click;
             // 
             // button1
             // 
@@ -60,17 +56,25 @@
             resources.ApplyResources(button3, "button3");
             button3.Name = "button3";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // rainbowLabel1
+            // 
+            resources.ApplyResources(rainbowLabel1, "rainbowLabel1");
+            rainbowLabel1.Float = true;
+            rainbowLabel1.Name = "rainbowLabel1";
             // 
             // CBToolCS
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(rainbowLabel1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             KeyPreview = true;
+            MaximizeBox = false;
             Name = "CBToolCS";
             Load += CBToolCS_Load;
             ResumeLayout(false);
@@ -78,10 +82,10 @@
         }
 
         #endregion
-
-        private Label label1;
         private Button button1;
         private Button button2;
         private Button button3;
+        private System.Windows.Forms.Timer timer1;
+        private RainbowLabel rainbowLabel1;
     }
 }
