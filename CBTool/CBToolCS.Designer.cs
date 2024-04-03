@@ -35,6 +35,7 @@
             button3 = new Button();
             timer1 = new System.Windows.Forms.Timer(components);
             rainbowLabel1 = new RainbowLabel();
+            rainbowButton1 = new RainbowButton();
             SuspendLayout();
             // 
             // button1
@@ -64,10 +65,19 @@
             rainbowLabel1.Float = true;
             rainbowLabel1.Name = "rainbowLabel1";
             // 
+            // rainbowButton1
+            // 
+            rainbowButton1.Float = true;
+            resources.ApplyResources(rainbowButton1, "rainbowButton1");
+            rainbowButton1.Name = "rainbowButton1";
+            rainbowButton1.RealText = "test";
+            rainbowButton1.UseVisualStyleBackColor = true;
+            // 
             // CBToolCS
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(rainbowButton1);
             Controls.Add(rainbowLabel1);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -87,5 +97,6 @@
         private Button button3;
         private System.Windows.Forms.Timer timer1;
         private RainbowLabel rainbowLabel1;
+        private RainbowButton rainbowButton1;
     }
 }

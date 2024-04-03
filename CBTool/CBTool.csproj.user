@@ -13,11 +13,11 @@
     <Compile Update="PicPreview.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="RainbowLabel.cs">
+    <Compile Update="RainbowButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="README.cs">
-      <SubType>Form</SubType>
+    <Compile Update="RainbowLabel.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Update="SelectWindow.cs">
       <SubType>Form</SubType>
