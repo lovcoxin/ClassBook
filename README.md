@@ -1,8 +1,9 @@
 # Github Class14 图床
 - [HTML引用](#HTML引用)
 
+---
 
-##### HTML引用
+#### HTML引用
 关于HTML引用语法：`https://gitee.com/lycolovcoxin/classbook/tree/PictureHub/<文件类型>/<文件编号>?raw=true/`
 
 文件类型：
