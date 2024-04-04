@@ -84,6 +84,8 @@ namespace CBTool
 
         public static void LoadFile() 
         {
+            if (!Directory.Exists("data"))
+                GenData();
             string jsonString = File.ReadAllText("data/scene_numbering.json");
             Dictionary<string, string> scene_numbering = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonString);
             string jsonString2 = File.ReadAllText("data/category_numbering.json");
