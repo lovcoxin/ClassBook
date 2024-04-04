@@ -21,8 +21,8 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 ---
 
-  * [All install](#all-install)
   * [Partial install](#partial-install)
+  * [All install](#all-install)
   * [ClassWebsite](#classwebsite)
 
 ---
