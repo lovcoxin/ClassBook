@@ -12,6 +12,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Diagnostics;
 
 namespace CBTool
 {
@@ -28,7 +29,7 @@ namespace CBTool
 
         private void PicNumbering_DragEnter(object sender, DragEventArgs e)
         {
-        
+
         }
 
         public static bool canPares(string s)
@@ -74,6 +75,7 @@ namespace CBTool
 
         private void PicNumbering_Load(object sender, EventArgs e)
         {
+            DataInfo.LoadFile();
             comboBox3.Items.Clear();
             foreach (var item in DataInfo.scene_numbering.Keys)
             {
@@ -144,7 +146,7 @@ namespace CBTool
         private void LoadFile()
         {
             listBox1.Items.Clear();
-            if (!Directory.Exists("images")) 
+            if (!Directory.Exists("images"))
             {
                 Directory.CreateDirectory("images");
             }
@@ -188,14 +190,14 @@ namespace CBTool
             foreach (var filePath in Directory.EnumerateFiles("images", "*", SearchOption.TopDirectoryOnly))
             {
                 string name = Path.GetFileNameWithoutExtension(filePath);
-                if (canPares(name)) 
+                if (canPares(name))
                 {
                     int i = int.Parse(name);
                     nums.Add(i);
                 }
             }
             nums.Sort((a, b) => b.CompareTo(a));
-            if(nums.Count > 0 ) 
+            if (nums.Count > 0)
             {
                 num = nums[0] + 1;
             }
@@ -289,7 +291,6 @@ namespace CBTool
                 indexAndTag.elements.Add(element);
                 string updatedJson = Newtonsoft.Json.JsonConvert.SerializeObject(indexAndTag, Formatting.Indented);
                 File.WriteAllText(filePath, updatedJson);
-                MessageBox.Show(updatedJson);
             }
             //IndexAndTag indexAndTag = new IndexAndTag();
             //List<string> strings = new List<string>();
@@ -387,7 +388,8 @@ namespace CBTool
                     label1.Text = "图片格式：" + fileInfo.Extension;
                     label5.Text = "图片大小：" + FileSizeConverter.ConvertFileSize(fileInfo.Length);
                     label6.Text = "图片ID：" + Path.GetFileNameWithoutExtension(listItem.Path);
-                    pictureBox1.ImageLocation = listItem.Path;
+                    if (!checkBox1.Checked)
+                        pictureBox1.ImageLocation = listItem.Path;
                 }
                 else
                 {
@@ -421,10 +423,41 @@ namespace CBTool
             FileInfo fileInfo = new FileInfo(listItem.Path);
             if (fileInfo.Exists)
             {
-                PicPreview picPreview = new PicPreview();
+                PicPreview picPreview = new PicPreview(Image.FromFile(listItem.Path));
                 picPreview.pictureBox1.ImageLocation = listItem.Path;
                 picPreview.ShowDialog();
-            }           
+            }
+        }
+
+        private void listBox1_DoubleClick(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItem == null) return;
+            ListItem listItem = (ListItem)listBox1.SelectedItem;
+            if (listItem == null) return;
+            Console.WriteLine(listItem.Path);
+            try
+            {
+                ProcessStartInfo startInfo = new ProcessStartInfo(Path.GetFullPath(listItem.Path));
+
+                // 可选：隐藏启动程序的窗口（如果需要静默打开）
+                // startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+
+                // 启动新进程打开图片
+                Process process = Process.Start(startInfo);
+            }
+            catch (Exception ex)
+            {
+                // 处理可能出现的异常，如文件不存在、没有关联程序等
+                Debug.WriteLine($"无法打开文件：{ex.Message}");
+            }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox1.Checked) 
+            {
+                pictureBox1.Image = null;
+            }
         }
     }
 }

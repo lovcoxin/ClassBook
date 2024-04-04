@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -80,5 +81,30 @@ namespace CBTool
             {"A0044", "邹荣"},
             {"A0045", "张智睿" }
         };
+
+        public static void LoadFile() 
+        {
+            string jsonString = File.ReadAllText("data/scene_numbering.json");
+            Dictionary<string, string> scene_numbering = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonString);
+            string jsonString2 = File.ReadAllText("data/category_numbering.json");
+            Dictionary<string, string> category_numbering = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonString2);
+            string jsonString3 = File.ReadAllText("data/member_numbering.json");
+            Dictionary<string, string> member_numbering = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonString3);
+            DataInfo.scene_numbering = scene_numbering;
+            DataInfo.category_numbering = category_numbering;
+            DataInfo.member_numbering = member_numbering;
+        }
+
+        public static void GenData() 
+        {
+            if(!Directory.Exists("data"))
+                Directory.CreateDirectory("data");
+            string updatedJson = Newtonsoft.Json.JsonConvert.SerializeObject(scene_numbering, Formatting.Indented);
+            File.WriteAllText("data/scene_numbering.json", updatedJson);
+            string updatedJson2 = Newtonsoft.Json.JsonConvert.SerializeObject(category_numbering, Formatting.Indented);
+            File.WriteAllText("data/category_numbering.json", updatedJson2);
+            string updatedJson3 = Newtonsoft.Json.JsonConvert.SerializeObject(member_numbering, Formatting.Indented);
+            File.WriteAllText("data/member_numbering.json", updatedJson3);
+        }
     }
 }

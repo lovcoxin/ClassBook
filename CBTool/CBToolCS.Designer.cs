@@ -62,6 +62,7 @@
             // rainbowLabel1
             // 
             resources.ApplyResources(rainbowLabel1, "rainbowLabel1");
+            rainbowLabel1.BackColor = SystemColors.Control;
             rainbowLabel1.Float = true;
             rainbowLabel1.Name = "rainbowLabel1";
             // 

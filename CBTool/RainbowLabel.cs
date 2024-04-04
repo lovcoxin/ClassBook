@@ -165,6 +165,7 @@ namespace CBTool
         {
             Size size =  base.GetPreferredSize(proposedSize);
             size.Height = size.Height + 5;
+            size.Width = size.Width + TextRenderer.MeasureText(" ",Font,new Size(int.MaxValue,int.MaxValue),TextFormatFlags.SingleLine).Width;
             return size;
         }
     }

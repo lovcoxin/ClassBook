@@ -52,6 +52,8 @@
             panel1 = new Panel();
             groupBox4 = new GroupBox();
             toolTip1 = new ToolTip(components);
+            label7 = new Label();
+            checkBox1 = new CheckBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             contextMenuStrip1.SuspendLayout();
@@ -211,6 +213,7 @@
             listBox1.Size = new Size(417, 224);
             listBox1.TabIndex = 7;
             listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
+            listBox1.DoubleClick += listBox1_DoubleClick;
             // 
             // button1
             // 
@@ -286,12 +289,38 @@
             groupBox4.TabStop = false;
             groupBox4.Text = "文件列表";
             // 
+            // toolTip1
+            // 
+            toolTip1.ToolTipIcon = ToolTipIcon.Info;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(444, 22);
+            label7.Name = "label7";
+            label7.Size = new Size(140, 17);
+            label7.TabIndex = 14;
+            label7.Text = "双击人物列表来添加人物";
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(447, 44);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(327, 21);
+            checkBox1.TabIndex = 15;
+            checkBox1.Text = "不预览图片（防止潜在的异常发生，例如文件无法打开）";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
             // PicNumbering
             // 
             AllowDrop = true;
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(981, 544);
+            Controls.Add(checkBox1);
+            Controls.Add(label7);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
             Controls.Add(button4);
@@ -318,6 +347,7 @@
             panel1.PerformLayout();
             groupBox4.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -344,5 +374,7 @@
         private Panel panel1;
         private GroupBox groupBox4;
         private ToolTip toolTip1;
+        private Label label7;
+        private CheckBox checkBox1;
     }
 }
