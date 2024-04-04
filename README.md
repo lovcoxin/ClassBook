@@ -32,9 +32,8 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 提取密码：1234
 
 ### All install:
-有必要的话来skype群组联系负责人获取：[skype群组](https://join.skype.com/yPRKhVxIXfEs)
-
-> 由于body模块的源文件类型（如：.psd）文件过大导致蓝奏云无法上传，因此转用优享版传输
+如果有必要获取，尝试联系管理员临时开启阿里云盘的快传渠道 https://www.alipan.com/t/3dkGRR7JzCYBhUJXcKWu
+`需要一个阿里云盘账号`
 
 > 由于me不是会去开网盘会员的那种人，因此暂时没有合适的渠道可以使用（合适的渠道：有永久分享链接的网盘）
 
