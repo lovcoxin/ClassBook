@@ -50,6 +50,8 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 ### CBtool的json文件
 别问我为什么不放在CBtool分支里^__^``
 
-类别 | category_numbering.json 
-成员名单 | member_numbering.json
-场景 | scene_numbering.json
+| Name | Matching-file |
+| --- | --- |
+| 类别 | category_numbering.json |
+| 成员名单 | member_numbering.json |
+|场景 | scene_numbering.json |
