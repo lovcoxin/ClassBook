@@ -55,4 +55,5 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 | 类别 | category_numbering.json | [get](https://github.com/lovcoxin/ClassBook/blob/main/category_numbering.json)
 | 成员名单 | member_numbering.json | [get](https://github.com/lovcoxin/ClassBook/blob/main/member_numbering.json)
 | 场景 | scene_numbering.json | [get](https://github.com/lovcoxin/ClassBook/blob/main/scene_numbering.json)
-`反正计划是用来做CBtool的优化用的`
+
+`总之，放在仓库里计划是给CBtool做优化用的`
