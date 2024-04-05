@@ -24,6 +24,7 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
   * [Partial install](#partial-install)
   * [All install](#all-install)
   * [ClassWebsite](#classwebsite)
+  * [CBtool-json配置文件](#CBtool-json配置文件)
 
 ---
 
