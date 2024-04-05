@@ -17,7 +17,7 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 
 ###### Contact Us: 
-> (Group in Skype) https://join.skype.com/yPRKhVxIXfEs
+> (Group in Skype) [https://join.skype.com/yPRKhVxIXfEs](https://join.skype.com/yPRKhVxIXfEs)
 > (Email of responsible) lovcoxin@126.com
 
 ---
