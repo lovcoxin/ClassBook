@@ -47,7 +47,7 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 ---
 
-### CBtool的json文件
+### CBtool-json配置文件
 别问我为什么不放在CBtool分支里^__^``
 
 | Name | Matching-file | to-file |
