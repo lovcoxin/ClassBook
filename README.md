@@ -17,4 +17,7 @@
 
 文件编号可以通过CBtool进行查找，关于CBtool的[下载链接](https://github.com/lovcoxin/ClassBook/releases/tag/v1.2.2)
 
+---
 
+#### What's New
+[2024 06 04 - 15:06](/20240604.log) 用TONGYI lingma的代码检测图片是否存在，以此辅助完成图片上传！
