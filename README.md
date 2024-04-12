@@ -4,6 +4,8 @@ The first turning point in Class 14's academic journey is the High School Entran
 Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
 ### What's New
+> [2024 04 12 - 22:25](/log/20240412.log) 持续推进班刊本体制作，研究阿里云盘API
+
 > [2024 04 05 - 17:34](/log/20240504.log) 完成heic转换ipeg，将图片上传至图床进行储存
 
 > [2024 04 04 - 10:57](/log/20240404.log) CBtool分支建立，推进完成班刊初稿
