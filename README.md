@@ -14,7 +14,6 @@ Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and ima
 
 > 2024 03 30 - 20:38 推进初稿，计划使用compose
 
-> [2024 03 22 - 21:29](/log/20240322.log) 计划推进PictureProject
 
 
 
