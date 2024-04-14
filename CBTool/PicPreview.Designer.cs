@@ -31,8 +31,10 @@
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
+            rainbowButton1 = new RainbowButton();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -61,10 +63,22 @@
             // 
             panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panel2.BackColor = Color.White;
+            panel2.Controls.Add(rainbowButton1);
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(126, 480);
             panel2.TabIndex = 1;
+            // 
+            // rainbowButton1
+            // 
+            rainbowButton1.Float = false;
+            rainbowButton1.Location = new Point(26, 12);
+            rainbowButton1.Name = "rainbowButton1";
+            rainbowButton1.RealText = "旋转90°";
+            rainbowButton1.Size = new Size(75, 23);
+            rainbowButton1.TabIndex = 0;
+            rainbowButton1.UseVisualStyleBackColor = true;
+            rainbowButton1.Click += rainbowButton1_Click;
             // 
             // PicPreview
             // 
@@ -79,6 +93,7 @@
             Load += PicPreview_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -87,5 +102,6 @@
         private Panel panel1;
         public PictureBox pictureBox1;
         private Panel panel2;
+        private RainbowButton rainbowButton1;
     }
 }

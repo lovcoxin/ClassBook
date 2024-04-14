@@ -19,6 +19,7 @@ namespace CBTool
         private int _width = 0;
         private int _height = 0;
         private List<Bitmap> bitmaps = new List<Bitmap>();
+        private int _rot;
 
         public PicPreview(Image image)
         {
@@ -54,7 +55,7 @@ namespace CBTool
             newWidth = Math.Min(newWidth, _width * 10);
             newHeight = Math.Min(newHeight, _height * 10);
 
-            if (newHeight == Height && newWidth == Width) 
+            if (newHeight == Height && newWidth == Width)
             {
                 return;
             }
@@ -66,6 +67,10 @@ namespace CBTool
             g.DrawImage(originalImage, new Rectangle(0, 0, newWidth, newHeight));
             Width = newWidth;
             Height = newHeight;
+            for (int i = 0; i < _rot; i++) 
+            {
+                tempBitmap.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            }
             pictureBox.Image = tempBitmap;
             bitmaps.Add(tempBitmap);
         }
@@ -91,6 +96,14 @@ namespace CBTool
             {
                 item.Dispose();
             }
+        }
+
+        private void rainbowButton1_Click(object sender, EventArgs e)
+        {
+            Bitmap originalImage = (Bitmap)pictureBox1.Image;
+            originalImage.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            _rot++;
+            pictureBox1.Image = originalImage;
         }
     }
 }

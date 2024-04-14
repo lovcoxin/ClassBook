@@ -257,6 +257,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             pictureBox1.MouseDoubleClick += pictureBox1_MouseDoubleClick;
             // 
             // groupBox3
@@ -278,6 +279,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(522, 431);
             panel1.TabIndex = 12;
+            panel1.Paint += panel1_Paint;
             // 
             // groupBox4
             // 

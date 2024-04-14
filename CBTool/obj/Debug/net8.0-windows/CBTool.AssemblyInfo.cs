@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("CBTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.3")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e4524385db9e02d04b235f9c9300e8c9aff80c7")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.3.1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+914619f2ba8179278c98aecb10108941cf514560")]
 [assembly: System.Reflection.AssemblyProductAttribute("CBTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CBTool")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.3")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.3.1")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 

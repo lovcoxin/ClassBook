@@ -13,6 +13,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Diagnostics;
+using MetadataExtractor;
+using Directory = System.IO.Directory;
+using MetadataExtractor.Formats.Exif;
 
 namespace CBTool
 {
@@ -160,6 +163,17 @@ namespace CBTool
                     ListItem listItem = new ListItem(filePath, fileInfo.Name);
                     listBox1.Items.Add(listItem);
                 }
+                var sortedItems = listBox1.Items.Cast<ListItem>()
+                               .OrderBy(o => o.ID)
+                               .ToList();
+
+                listBox1.BeginUpdate();
+                listBox1.Items.Clear();
+                foreach (var item in sortedItems)
+                {
+                    listBox1.Items.Add(item);
+                }
+                listBox1.EndUpdate();
             }
             catch (Exception exception)
             {
@@ -169,10 +183,22 @@ namespace CBTool
             button2.Enabled = true;
         }
 
-        private class ListItem
+        private class ListItem : IComparable
         {
             public string Path { get; set; }
             public string Name { get; set; }
+            public int ID { 
+                get 
+                {
+                    string name = System.IO.Path.GetFileNameWithoutExtension(Path);
+                    if (canPares(name))
+                    {
+                        int i = int.Parse(name);
+                        return i;
+                    }
+                    return -1;
+                }
+            }
 
             public ListItem(string path, string name)
             {
@@ -181,6 +207,25 @@ namespace CBTool
             }
 
             public override string ToString() { return Name; }
+
+            public int CompareTo(object? obj)
+            {
+                if (obj is not ListItem)
+                    return 0;
+                string name = System.IO.Path.GetFileNameWithoutExtension(Path);
+                if (canPares(name))
+                {
+                    int i = int.Parse(name);
+                    ListItem listItem = (ListItem)obj;
+                    string name2 = System.IO.Path.GetFileNameWithoutExtension(listItem.Path);
+                    if (canPares(name2))
+                    {
+                        int i2 = int.Parse(name2);
+                        return i.CompareTo(i2);
+                    }
+                }
+                return Name.CompareTo(obj);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -390,6 +435,24 @@ namespace CBTool
                     label6.Text = "图片ID：" + Path.GetFileNameWithoutExtension(listItem.Path);
                     if (!checkBox1.Checked)
                         pictureBox1.ImageLocation = listItem.Path;
+                    try
+                    {
+                        var directories = ImageMetadataReader.ReadMetadata(filePath);
+                        foreach (var directory in directories.OfType<ExifIfd0Directory>())
+                        {
+                            foreach (var tag in directory.Tags)
+                            {
+                                string tagName = tag.Name;
+                                object tagValue = tag.Description;
+
+                                Program.LOGGER.Info($"{tagName}: {tagValue}");
+                            }
+                        }
+                    }
+                    catch(Exception ex) 
+                    {
+                        Program.LOGGER.Error(ex);
+                    }
                 }
                 else
                 {
@@ -423,9 +486,16 @@ namespace CBTool
             FileInfo fileInfo = new FileInfo(listItem.Path);
             if (fileInfo.Exists)
             {
-                PicPreview picPreview = new PicPreview(Image.FromFile(listItem.Path));
-                picPreview.pictureBox1.ImageLocation = listItem.Path;
-                picPreview.ShowDialog();
+                try
+                {
+                    PicPreview picPreview = new PicPreview(Image.FromFile(listItem.Path));
+                    picPreview.pictureBox1.ImageLocation = listItem.Path;
+                    picPreview.ShowDialog();
+                }
+                catch (OutOfMemoryException ex)
+                {
+                    Program.LOGGER.Error("无法打开此格式的文件"+ex.ToString());
+                }   
             }
         }
 
@@ -454,10 +524,20 @@ namespace CBTool
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if(checkBox1.Checked) 
+            if (checkBox1.Checked)
             {
                 pictureBox1.Image = null;
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
