@@ -1,8 +1,9 @@
 # ClassBook
 The first turning point in Class 14's academic journey is the High School Entrance Examination.
 
-Mian websites is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
+Mian repository is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
+Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/markdown)
 
 ###### Contact Us: 
 > (Group in Skype) [https://join.skype.com/yPRKhVxIXfEs](https://join.skype.com/yPRKhVxIXfEs)
