@@ -5,6 +5,7 @@ Mian repository is in [github.com](https://github.com/lovcoxin/classbook), and i
 
 Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/markdown)
 
+
 ###### Contact Us: 
 > (Group in Skype) [https://join.skype.com/yPRKhVxIXfEs](https://join.skype.com/yPRKhVxIXfEs)
 > (Email of responsible) lovcoxin@126.com
@@ -15,10 +16,11 @@ Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/
   * [All install](#all-install)
   * [ClassWebsite](#classwebsite)
   * [What'up and history](#what's-up-and-history)
+  * [项目参与组](#项目参与组)
 
 ---
 
-[ install模块暂停维护... -2024 04 14 ]
+【--install模块于 2024.04.14 停止维护--!】
 
 ### Partial install:
 辅助资料下载链：[蓝奏云链接](https://lovcoxin.lanzout.com/iAFYx1qvfjfi)
@@ -57,3 +59,12 @@ Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/
 > 2024 03 30 - 20:38 推进初稿，计划使用compose
 
 > -- 早期记录 | 需要查看log文件夹 --
+
+---
+
+# 项目参与组：
+| Name | 定位 |
+| --- | --- |
+| Lycoris Lovcoxin | 负责人 |
+| lxxgd | 负责人 |
+| GcsoN | 贡献者 |
