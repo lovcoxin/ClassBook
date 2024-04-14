@@ -37,7 +37,7 @@ Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/
 ---
 
 ### [ClassWebsite](https://lxxgd.github.io/)
-虽然我直接很难，但真的很想做这个项目啊O__Q``
+虽然我直接很难，但真的很想做这个项目啊QmQ``
 > 2024.04.14 17:33 降低执行等级，该项目负责人持续推进...
 
 > 2024.03.31 00：29 完成实现原理的探索，并试图推进
