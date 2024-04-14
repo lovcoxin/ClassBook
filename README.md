@@ -63,8 +63,8 @@ Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/
 ---
 
 # 项目参与组：
-| Name | 定位 |
-| --- | --- |
-| Lycoris Lovcoxin | 负责人 |
-| lxxgd | 负责人 |
-| GcsoN | 贡献者 |
+| Name | 定位 | 任务分配 |
+| --- | --- | --- |
+| Lycoris Lovcoxin | 负责人 | 班级电子报刊本体制作 |
+| lxxgd | 负责人 | 班级文化网站项目 |
+| GcsoN | 贡献者 | 班级相册数据整理 |
