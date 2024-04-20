@@ -15,7 +15,7 @@ Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/
   * [Partial install](#partial-install)
   * [All install](#all-install)
   * [ClassWebsite](#classwebsite)
-  * [What's up and history](#What's-up-and-history)
+  * [What's up and history](#What-is-up-and-history)
   * [项目参与组](#项目参与组)
 
 ---
@@ -45,7 +45,7 @@ Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/
 ---
 
 
-### What's up and history
+### What is up and history
 > [2024 04 20 - 18:23](/log/20240420.log) 时间不够用，发展缓慢...
 
 > [2024 04 14 - 17:04](/log/20240414.log) 确认班刊本体制作任务为优先级 | 期末临近，降低消耗时间
