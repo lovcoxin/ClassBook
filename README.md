@@ -15,7 +15,7 @@ Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/
   * [Partial install](#partial-install)
   * [All install](#all-install)
   * [ClassWebsite](#classwebsite)
-  * [What'up and history](#what's-up-and-history)
+  * [What's up and history](#What's-up-and-history)
   * [项目参与组](#项目参与组)
 
 ---
