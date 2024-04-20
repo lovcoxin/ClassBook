@@ -46,6 +46,8 @@ Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/
 
 
 ### What's up and history
+> [2024 04 20 - 18:23](/log/20240420.log) 时间不够用，发展缓慢...
+
 > [2024 04 14 - 17:04](/log/20240414.log) 确认班刊本体制作任务为优先级 | 期末临近，降低消耗时间
 
 > [2024 04 12 - 22:25](/log/20240412.log) 持续推进班刊本体制作，研究阿里云盘API
