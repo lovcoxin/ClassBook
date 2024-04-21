@@ -46,7 +46,9 @@ Project propulsion recore .md - [to](https://github.com/lovcoxin/ClassBook/tree/
 
 
 ### What is up and history
-> [2024 04 21 - 4:21](/log/20240421.log) 完成git本地操作的基本探索 --Lycoris lovcoxin
+> [2024 04 21 - 17:21](/log/20240421.log) 完成main分支为md文件储存路径，持续推进班刊制作
+
+> [2024 04 21 - 4:21](/log/20240421.log) 无效的git本地使用探索
 
 > [2024 04 20 - 18:23](/log/20240420.log) 时间不够用，发展缓慢...
 
