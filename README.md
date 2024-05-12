@@ -44,6 +44,8 @@ Mian repository is in [github.com](https://github.com/lovcoxin/classbook), and i
 
 
 ### What is up and history
+> [2024 05 12 - 9:26](/log/20240512.log) 火速推进办刊制作，网站正在寻找模板...
+
 > [2024 04 21 - 17:21](/log/20240421.log) 完成main分支为md文件储存路径，持续推进班刊制作
 
 > [2024 04 21 - 4:21](/log/20240421.log) 无效的git本地使用探索
