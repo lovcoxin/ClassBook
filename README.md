@@ -13,7 +13,7 @@ Mian repository is in [github.com](https://github.com/lovcoxin/classbook), and i
   * [Partial install](#partial-install)
   * [All install](#all-install)
   * [ClassWebsite](#classwebsite)
-  * [What's up dispose](What-is-up-dispose)
+  * [What's up dispose](#What-is-up-dispose)
   * [What's up and history](#What-is-up-and-history)
   * [项目参与组](#项目参与组)
 
