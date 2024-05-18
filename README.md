@@ -13,6 +13,7 @@ Mian repository is in [github.com](https://github.com/lovcoxin/classbook), and i
   * [Partial install](#partial-install)
   * [All install](#all-install)
   * [ClassWebsite](#classwebsite)
+  * [What's up dispose](What-is-up-dispose)
   * [What's up and history](#What-is-up-and-history)
   * [项目参与组](#项目参与组)
 
@@ -41,6 +42,10 @@ Mian repository is in [github.com](https://github.com/lovcoxin/classbook), and i
 > 2024.03.31 00：29 完成实现原理的探索，并试图推进
 
 ---
+### What is up dispose
+- 班刊制作 --等待作文素材进行填充
+- 班级网站 --几乎无推进，暂且搁置
+- 班级文化图片 --计划使用蓝奏云作为主力图片下载渠道，视频暂不考虑
 
 
 ### What is up and history
