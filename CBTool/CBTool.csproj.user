@@ -19,6 +19,9 @@
     <Compile Update="RainbowLabel.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="RemoveWin.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SelectWindow.cs">
       <SubType>Form</SubType>
     </Compile>

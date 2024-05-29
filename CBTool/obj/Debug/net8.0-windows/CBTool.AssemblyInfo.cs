@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CBTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.3.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+914619f2ba8179278c98aecb10108941cf514560")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b26b7b9fd9dfbb2a0221444c0686a771327e3f6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CBTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CBTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.3.1")]
