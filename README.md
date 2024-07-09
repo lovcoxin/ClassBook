@@ -1,8 +1,15 @@
-# ClassBook
+# ClassBook【--暂停维护！--】
 The first turning point in Class 14's academic journey is the High School Entrance Examination.
 
 Mian repository is in [github.com](https://github.com/lovcoxin/classbook), and image repository is in [gitee.com](https://gitee.com/lycolovcoxin/classbook).
 
+---
+
+于2024/ 07/ 09决定封存项目
+其2021届毕业班毕业后完成项目停止，停止剩余可持续性发展内容
+
+计划将仓库权限转移，lovcoxin@126.com转移至zkn2ms202114@126.com，目前转移目标的githu账号为classwebsite
+该账号计划交由2021届我班的班主任进行处理
 
 ###### Contact Us: 
 > (Group in Skype) [https://join.skype.com/yPRKhVxIXfEs](https://join.skype.com/yPRKhVxIXfEs)
@@ -70,17 +77,4 @@ Mian repository is in [github.com](https://github.com/lovcoxin/classbook), and i
 
 > [2024 04 04 - 10:57](/log/20240404.log) CBtool分支建立，推进完成班刊初稿
 
-> [2024 03 31 - 0:31](/log/20240331.log) 发现问题，compose不适用于网站
-
-> 2024 03 30 - 20:38 推进初稿，计划使用compose
-
-> -- 早期记录 | 需要查看log文件夹 --
-
----
-
-# 项目参与组：
-| Name | 定位 | 任务分配 |
-| --- | --- | --- |
-| Lycoris Lovcoxin | 负责人 | 班级电子报刊本体制作 |
-| lxxgd | 负责人 | 班级文化网站项目 |
-| GcsoN | 贡献者 | 班级相册数据整理 |
+> [2024 03 31 - 0:31](/log/20240331.log) 发现问
