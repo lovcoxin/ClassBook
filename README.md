@@ -9,7 +9,8 @@ Mian repository is in [github.com](https://github.com/lovcoxin/classbook), and i
 
 其2021届毕业班毕业后完成项目停止，停止剩余可持续性发展内容
 
-计划将仓库权限转移，lovcoxin@126.com转移至zkn2ms202114@163.com，目前转移目标的githu账号为classwebsite
+计划将仓库权限转移，lovcoxin@126.com转移至zkn2ms202114@163.com，目前转移目标的githu账号为zkn2ms202114，名称为ClassWebsite
+
 该账号计划交由2021届我班的班主任进行处理
 ---lovcoxin
 
